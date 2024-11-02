@@ -243,16 +243,13 @@
     border-radius: 10px;
     line-height: 50px;
 }
-.pic-7:hover{
-    transform: rotate(90deg);   
-}
 .pic-8{
-    position: absolute;
-    margin-top: 10px;
-    margin-left:-29px;
-    border-radius: 10px;
-    line-height: 50px;
+    position:absolute;
+    border-radius: 15px;
 }
+.pic-7:hover{
+    opacity: 2px;
+}   
 .pic-9{
     position: absolute;
     margin-top: 10px;
@@ -260,7 +257,38 @@
     border-radius: 10px;
     line-height: 50px;
 }
+.pic-9:hover{
+    transform:scale(1.1);
+}
 .pic-10{
+    position: absolute;
+    margin-top: 10px;
+    margin-left:-29px;
+    border-radius: 10px;
+    line-height: 50px;
+}
+.pic-11{
+    position: absolute;
+    margin-top: 10px;
+    margin-left:-29px;
+    border-radius: 10px;
+    line-height: 50px;
+}
+.pic-12{
+    position: absolute;
+    margin-top: 10px;
+    margin-left:-29px;
+    border-radius: 10px;
+    line-height: 50px;
+}
+.pic-13{
+    position: absolute;
+    margin-top: 10px;
+    margin-left:-29px;
+    border-radius: 10px;
+    line-height: 50px;
+}
+.pic-14{
     position: absolute;
     margin-top: 10px;
     margin-left:-29px;
@@ -275,7 +303,6 @@
     bottom:420px;
     position: relative;
    }
-
 .feat{
    margin:80px;
    line-height: 480px;
@@ -309,28 +336,56 @@
     justify-content:left;
     font-family: Arial, Helvetica, sans-serif;
  }
- .pic-11{
+ .pic-15{
     position: absolute;
     margin-top: 10px;
     margin-left:-29px;
     border-radius: 10px;
     line-height: 50px;
 }
-.pic-12{
+.pic-16{
     position: absolute;
     margin-top: 10px;
     margin-left:-29px;
     border-radius: 10px;
     line-height: 50px;
 }
-.pic-13{
+.pic-17{
     position: absolute;
     margin-top: 10px;
     margin-left:-29px;
     border-radius: 10px;
     line-height: 50px;
 }
-.pic-14{
+.pic-18{
+    position: absolute;
+    margin-top: 10px;
+    margin-left:-29px;
+    border-radius: 10px;
+    line-height: 50px;
+}
+.pic-19{
+    position: absolute;
+    margin-top: 10px;
+    margin-left:-29px;
+    border-radius: 10px;
+    line-height: 50px;
+}
+.pic-20{
+    position: absolute;
+    margin-top: 10px;
+    margin-left:-29px;
+    border-radius: 10px;
+    line-height: 50px;
+}
+.pic-21{
+    position: absolute;
+    margin-top: 10px;
+    margin-left:-29px;
+    border-radius: 10px;
+    line-height: 50px;
+}
+.pic-22{
     position: absolute;
     margin-top: 10px;
     margin-left:-29px;
@@ -383,3 +438,314 @@
     color: rgb(25, 167, 136);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
 }
+.deal-1{
+    height:520px;
+    width:620px;
+    position: absolute;
+    margin-left: -840px;
+    margin-top: 430px;
+}
+.deal-2{
+    height: 520px;
+    width: 620px;
+    position: absolute;
+    margin-left:-210px;
+    margin-top: 430px;
+}
+.letters1{
+    padding-left:130px;
+    position: relative;  
+    margin-top:-180px;
+}
+#deal1{
+     font-size:30px;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     color: rgb(25, 167, 136);
+     font-weight:550;
+     margin-top: 650px;
+     margin-left:-935px;
+}
+#limited1{
+    position:absolute;
+    margin-top: -15px;
+    margin-left:-933px ;
+    font-size:19px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(92, 90, 90);
+}
+#summer1{
+    position:absolute;
+    margin-top: 28px;
+    margin-left: -935px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+#dollar1{
+    position:absolute;
+    margin-top:110px;
+    margin-left:-935px;
+    font-size:25px;
+    font-weight: 550;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(236, 2, 111);
+}
+#hurry1{
+    position:absolute;
+    margin-top:170px;
+    margin-left: -935px;
+    font-size:21px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(92, 90, 90);
+}
+.time1{
+    top:210px;
+    position: relative;
+    margin-left:-935px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-content:center;
+    justify-content:left;
+}
+#days1{
+    display: flex;
+    background-color:rgb(7, 139, 95);
+    color: white;
+    border-radius: 2px;
+    height:50px;
+    width:60px;
+    padding-left:17px;
+    font-size: 23px;
+    padding-top: 5px;
+}
+#hours1{
+    display: flex;
+    background-color:rgb(7, 139, 95);
+    color: white;
+    border-radius: 2px;
+    height:50px;
+    width:60px;
+    padding-left:17px;
+    font-size: 23px;
+    padding-top: 5px;
+}
+#mins1{
+    display: flex;
+    background-color:rgb(7, 139, 95);
+    color: white;
+    border-radius: 2px;
+    height:50px;
+    width:60px;
+    padding-left:17px;
+    font-size: 23px;
+    padding-top: 5px;
+}
+#sec1{
+    display: flex;
+    background-color:rgb(7, 139, 95);
+    color: white;
+    border-radius: 2px;
+    height:50px;
+    width:60px;
+    padding-left:17px;
+    font-size: 23px;
+    padding-top: 5px;
+}
+.weektime1{
+    top:215px;
+    position: relative;
+    margin-left:-1100px;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    align-content:center;
+    justify-content:left;
+}
+#qout1{
+    display: flex;
+    color:rgb(7, 139, 111);
+    padding-left:78px;
+    font-size: 25px;
+    padding-top: 15px;
+}
+.weeknames1{
+    top:53px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    align-content:center;
+    justify-content:left;
+    margin-left:-935px;
+}
+#name1{
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.shop1{
+    top:80px;
+    position: relative;
+    margin-left:-935px;
+    display: flex;
+    border: 2.5px solid rgb(7, 139, 111);
+    color:rgb(7, 139, 111) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-radius:5px;
+    font-size: 20px;
+ }                                                                                                                
+ .letters2{
+     padding-left:1000px;
+     position: relative;  
+     margin-top:-330px;
+ }
+ #del2{
+    font-size:26px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(25, 167, 136);
+    font-weight:600;
+    margin-left: -1390px;
+    margin-top: 805px;
+}
+#limited2{
+   position:absolute;
+   margin-top: -10px;
+   margin-left: -1390px;
+   font-size:20px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color:rgb(92, 90, 90);
+}
+#summer2{
+    position:absolute;
+    margin-top:30px;
+    margin-left: -1390px;
+    font-size:25px;
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+#dollar2{
+    position:absolute;
+    margin-top:115px;
+    margin-left: -1390px;
+    font-size:25px;
+    font-weight: 550;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(236, 2, 111);
+}
+#hurry2{
+    position:absolute;
+    margin-top:175px;
+    margin-left: -1390px;
+    font-size:22px;
+    font-weight: 500;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(92, 90, 90);
+}
+.time2{
+    top:210px;
+    position: relative;
+    margin-left:-1390px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-content:center;
+    justify-content:left;   
+}
+#days2{
+    display: flex;
+    background-color:rgb(7, 139, 95);
+    color: white;
+    border-radius: 2px;
+    height:50px;
+    width:60px;
+    padding-left:17px;
+    font-size: 23px;
+    padding-top: 5px;
+}
+#hours2{
+    display: flex;
+    background-color:rgb(7, 139, 95);
+    color: white;
+    border-radius: 2px;
+    height:50px;
+    width:60px;
+    padding-left:17px;
+    font-size: 23px;
+    padding-top: 5px;
+}
+#mins2{
+    display: flex;
+    background-color:rgb(7, 139, 95);
+    color: white;
+    border-radius: 2px;
+    height:50px;
+    width:60px;
+    padding-left:17px;
+    font-size: 23px;
+    padding-top:5px;
+}
+#sec2{
+    display: flex;
+    background-color:rgb(7, 139, 95);
+    color: white;
+    border-radius: 2px;
+    height:50px;
+    width:60px;
+    padding-left:17px;
+    font-size: 23px;
+    padding-top: 5px;
+}
+.weektime2{
+    top:150px;
+    position: relative;
+    margin-left:-1415px;
+    display: flex;
+    flex-direction: row;
+    align-content:center;
+    justify-content:left;
+}
+#qout2{
+    display: flex;
+    color:rgb(7, 139, 95);
+    padding-left:90px;
+    font-size: 25px;
+    padding-top: 15px;
+}
+.weeknames2{
+    top:160px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap:38px;
+    align-content:center;
+    justify-content:left;
+    margin-left:-1390px;
+}
+#name2{
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.shop2{
+    top:185px;
+    position: relative;
+    margin-left:-1390px;
+    display: flex;
+    border:2px solid rgb(7, 139, 111);
+    color:rgb(7, 139, 111) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-radius:5px;
+    font-size: 20px;
+ }                                                                                                                
+ .Head3{
+margin-left: 10px;
+ }

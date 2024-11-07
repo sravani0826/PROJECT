@@ -1,0 +1,508 @@
+/* Headers */
+.abc{
+    margin-left: 50px;
+
+    /* margin-right: 20px; */
+    width: 1200px;
+  }
+  section{
+  margin-right: 20px;
+  }
+  .d-flex{
+    width: 300px;
+  }
+  .tags{
+    margin-inline: 50px;
+  }
+  .seabtn{
+     margin-top: 8px;
+     margin-left: 265px;   
+     position: absolute; 
+     z-index: 500;
+  }
+  .likebtn{
+    font-size: 9px;
+    margin-top: 5px; 
+    margin-left: -10px;
+    /* position: absolute;
+    z-index: 500; */
+    background-color: teal;
+  }
+  .likeimg{
+    margin-top: -10px;
+    margin-left: 20px;
+  
+  }
+  .cartbtn{
+    margin-top: -10px;
+  }
+  /* hero section */
+  .homeimg{
+      margin-left: 650px;
+      margin-top: 60px;
+  }
+  .head1{
+      color: rgb(57, 88, 57);
+      margin-top: -300px;
+  }
+  .grt{
+      font-size: 40px;
+  }
+  .trend{
+      width: 500px;
+      margin-left: -4px;
+      line-height: 55px;
+  }
+  .shop{
+    background-color: teal;
+    color: white;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .shop:hover{
+    background-color: white;
+    border: 1px solid teal;
+    color: teal;
+  }
+  /* popular categories */
+  .pop{
+      margin-top: 100px;
+      line-height: 60px;
+  }
+  .oneset{
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+      
+   }
+  .oneset figure{
+    border: 1px solid rgb(194, 244, 216);
+    padding: 5px;
+    border-radius: 20px;
+  }
+  .imgs{
+    border-radius: 10px;
+  } 
+  figcaption{
+    text-align: center;
+    font-weight: 500;
+    color: rgb(15, 74, 74);
+    padding-top: 18px;
+    padding-bottom: 10px;
+  }
+  .btn2{
+      border: none;
+      padding: 12px;
+      font-size: 15px;
+      font-weight: 500;
+      padding-left: 20px;
+      padding-right: 20px;
+      border-radius: 5px;
+  }
+  .feature{
+      margin-top: 45px;
+      width: 340px;
+      display: flex;
+      justify-content: space-between;
+  }
+  /* cards */
+  .pro{
+      width: 95vw;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 60px;
+      margin-left:-30px;
+      gap: 45px;
+    }
+    
+    .pro>div{
+      margin-left: 30px;
+      margin-bottom: 20px;
+      /* width: 320px; */
+      border-radius: 20px;
+      padding: 10px;
+    }
+    
+    .card-details{
+      padding: 15px;
+    }
+    
+     .pro img{
+      border-radius: 20px;
+     }
+    /*  */
+     .card{
+      border: 1px solid rgb(210, 240, 223);
+      position: relative;
+      padding: 10px;
+      height: 400px;
+      
+     
+
+      /* width: 250px; */
+    }   
+  
+     .image-container{
+      width:200px;
+    }
+  
+    #img1{
+      width: 100%;
+    }
+  
+    .back{
+      width: 200px;
+      position: absolute;
+      top: 10px;
+    }
+  
+    #img2{
+      width: 100%;
+      opacity: 0;
+      transition: opacity 0.5s;
+    }
+  
+    .card:hover #img2{
+      opacity: 1;
+    }
+  
+    .back-icons{
+      display: flex;
+      position: absolute;
+      top: 50%;
+      left: 49%;
+      transform: translateX(-49%);
+      opacity: 0;
+      transition: opacity 0.5s;
+    }
+  
+    .card:hover .back-icons{
+      opacity: 1;
+    }
+    
+    .tt-icon{
+      height: 50px;
+      width: 50px;
+      border: 1px solid #E9F6EB;
+      border-radius: 50%;
+      background-color: #E9F6EB;
+      color: black;
+      padding: 10px;
+      padding-inline: 15px;
+      margin-left: 5px;
+    }
+  
+    .tt:hover .tt-icon{
+      background-color: teal;
+      border-color: teal;
+      color: white;
+    }
+  
+    .tt{
+      position: relative;
+    }
+  
+    .tt .tt-text::after{
+      content: attr(data-tt);
+      color: white;
+      background-color: teal;
+      font-size: 12px;
+      padding-block: 5px;
+      padding-inline: 10px;
+      border: 1px solid teal;
+      border-radius: 5px;
+      position: absolute;
+      left: -25%;
+      white-space: nowrap;
+      visibility: hidden;
+      opacity: 0;
+      transition: opacity 0.5s;
+    }
+  
+.tt:hover .tt-text::after{
+      visibility: visible;
+      opacity: 1;
+      top: -190%;
+}
+    .tt .tt-text::before{
+      content: '';
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 7px solid;
+      border-color: teal transparent transparent transparent;
+      visibility: hidden;
+      opacity: 0;
+      transition: opacity 0.5s;
+    }
+  
+    .tt:hover .tt-text::before{
+      visibility: visible;
+      opacity: 1;
+      top: -70%;
+    }
+  
+  
+    .price{
+      color: teal;
+      font-weight: 600;
+      font-size: 18px;
+    }
+  
+    .offprz{
+      font-size: 15px;
+      color: rgb(170, 167, 167);
+      text-decoration: 1px line-through;
+      padding-left:5px ;
+    }
+    .hot-button{
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      border-radius: 15px;
+      background-color: rgb(254, 83, 140);
+      border: none;
+      color: white;
+      font-size: 12px;
+      font-weight: 400;
+      padding: 3px;
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+    .card-cart{
+      position: relative;
+      left: 150px;
+      top: -55px;
+      background-color:  #E9F6EB;
+      border: 1px solid  #b8dcbe;
+      padding: 5px;
+      padding-bottom: 12px;
+      padding-left: 11px;
+      padding-right: 11px;
+      border-radius: 50px;
+    }
+  
+    /* Banner section */
+   .btn3{
+    border: none;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 5px;
+   }
+   .banner{
+    background-image: url("../img/deals-1.jpg");
+    padding: 30px;
+    margin-left: 10px;
+    margin-top: 45px;
+    width: 683px;
+   }
+   .btn1{
+    background-color: transparent;
+    margin-top: 25px;
+    border: 2px solid teal;
+    color: teal;
+    font-weight: 500;
+    font-size: small;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+   }
+   .timer{
+    display: flex;
+   }
+   .banner span{
+    padding: 10px;
+   }
+   .timers1{
+   margin-left: 8px;
+   color: rgb(15, 74, 74);
+   }
+   .timers2{
+    margin-left: 3px;
+    color: rgb(15, 74, 74);
+    }
+    .timers3{
+    margin-left: 8px;
+    color: rgb(15, 74, 74);
+    }
+    .timers4{
+      margin-left: 10px;
+      color: rgb(15, 74, 74);
+    }
+    .banner2{
+      background-image: url("../img/deals-2.png");
+      background-position: 40%;
+      padding: 30px;
+      margin-left: 35px;
+      margin-top: 45px;
+      width: 683px;
+     }
+     .banner2 span{
+      padding: 10px;
+     }
+   .banners{
+    display: flex;
+   }
+   /* 4 column design */
+  
+   .four-column{
+    margin-left: -5px;
+    padding-top: 50px;
+    /* padding-bottom: 30px; */
+   }
+   .grid{
+    width: 95vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    /* margin-left: 10px; */
+   }
+  
+   .grid>div{
+    display: flex;
+    padding: 20px;
+    margin-left: -25px;
+    
+   }
+   .grid p{
+    padding-left: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+   }
+   .grid h6{
+    padding-left: 10px;
+    margin-top: -10px;
+   }
+   .xyz{
+    border: 1px solid rgb(229, 243, 235);
+    width: 250px;
+    position: absolute;
+    top: 2970px;
+   }
+   .uvw{
+    border: 2px solid teal;
+    width: 50px;
+    position: absolute;
+    top: 2970px;
+   }
+   .line1{
+    margin-left: 320px;
+   }
+   .line2{
+    margin-left: 640px;
+   }
+   .line3{
+    margin-left: 970px;
+   }
+/* Footers */
+.footer{
+    margin-top: 80px;
+    background-color: rgb(159, 200, 188);
+    margin-left: -50px;
+    margin-right: -140px;
+    height: 100px;
+  }
+  .emaimg{
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  .foot1{
+    margin-left: -260px;
+    margin-top: 21px;
+    font-weight: 600;
+    word-spacing: -1px;
+    
+  }
+  .emailbox{
+    border-radius: 0px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    width: 350px;
+    margin-left: -150px;
+    font-size: small;
+    padding: 10px;
+    padding-left:20px;
+  }
+  .foot2{
+    margin-top: 5px;
+    font-weight: 600;
+    word-spacing: -1px;
+  }
+  .subbox{
+    background-color: black;
+    color: white;
+    border-radius: 0px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    font-size: small;
+  }
+  .footerpart{
+    margin-top: 5px;
+  }
+  .foot6{
+    margin-top: 30px;
+    line-height: 50px;
+    color: gray;
+    font-weight: 600;
+    font-size: medium;
+  }
+  .foot4{
+    font-weight: 500;
+    color: rgb(57, 88, 57);
+  }
+  .foot5{
+    font-size: medium;
+    line-height: 30px;
+    margin-top: -50px;
+    color: rgb(57, 88, 57);
+  }
+  .foot7{
+    color: gray;
+    margin-top: 25px;
+    font-weight: 600;
+    font-size: medium;
+  }
+  .footicons{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    filter: brightness(3) invert(1);
+  }
+  .footset{
+    margin-left: 520px;
+    margin-top: -280px;
+  }
+  .footset1{
+    margin-top: 20px;
+  }
+  .footset2{
+    margin-left: 830px;
+    margin-top: -285px;
+  }
+  .footpay{
+    margin-left: 1100px;
+    margin-top: -285px;
+  }
+  .footpay img{
+    margin-top: 20px;
+  }
+  .footimg{
+    margin-top: 50px;
+  }    
+
+  .copyright{
+    margin-top:160px;
+  }
+
+  #design{
+    margin-left: 790px;
+  }

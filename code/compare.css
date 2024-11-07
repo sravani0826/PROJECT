@@ -1,0 +1,219 @@
+.logo1{
+    margin-left: 70px;
+}
+.d-flex{
+    margin-left:50px;
+
+}
+.headdings{
+    margin-inline: 50px;
+}
+   .seabtn{
+    margin-top:5px;
+    margin-left: 160px;
+    position: absolute;
+    /* z-index: 100; */
+}
+.heartbtn{
+    margin-top: -10px;
+    margin-left: 13px;
+}
+.cartbtn{
+    margin-top: -10px;
+    margin-left: 10px;
+}
+/* .cartbtn{
+    margin-top: -10px;
+} */
+.grt{
+    color:rgb(34,114,87);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size:70px;  
+}
+.text{
+    font-size: 20px;
+    margin-top: 14px;
+    margin-left:99px ;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+ .log{
+    margin-left: -50px;
+    background-color: hsl(0, 0%, 89%);
+  }
+  
+  .login{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(57, 88, 57);
+    word-spacing: 15px;
+    /* border: 1px solid rgb(194, 244, 216); */
+  
+  }
+  
+     /* Main Section */
+    .compare td{
+      border: 1px solid rgb(207, 217, 211);
+      padding: 10px;
+    }
+    .comtxt{
+      font-size: 14px;
+      font-weight: 400;
+      text-align: center;
+    }
+    .compare{
+      margin-top: 70px;
+      margin-left: 90px;
+    }
+    .tablecen{
+      text-align: center;
+    }
+    .colorball{
+      display: flex;
+      justify-content: center;
+    }
+    .colorball1{
+      height: 30px;
+      width: 30px;
+      margin-right: 10px; 
+      border: none;
+      border-radius: 50%;
+      background-color: rgb(250, 187, 69);
+    }
+    .colorball2{
+        height: 30px;
+        width: 30px;
+        margin-right: 10px; 
+        border: none;
+        border-radius: 50%;
+        background-color: rgb(254, 52, 86);
+      }
+      .colorball3{
+        height: 30px;
+        width: 30px;
+        border: none;
+        border-radius: 50%;
+        background-color: rgb(245, 245, 47);
+      }
+      .logbtn{
+        border: none;
+        border-radius: 4px;
+        background-color: teal;
+        color: white;
+        padding: 10px;
+        font-weight: 500px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-left: 12px;
+      }
+      /* Footers */
+      .footer{
+        margin-top: 70px;
+        background-color: rgb(159, 200, 200);
+        margin-left: -50px;
+        /* margin-right: -20px; */
+        height: 100px;
+      }
+      .emaimg{
+        margin-left: 90px;
+        margin-top: -5px;
+      }
+      .foot1{
+        margin-left: -270px;
+        margin-top: 5px;
+        font-weight: 600;
+        word-spacing: -1px;
+        
+      }
+      .emailbox{
+        border-radius: 0px;
+        border-bottom-left-radius: 4px;
+        border-top-left-radius: 4px;
+        width: 350px;
+        margin-left: -230px;
+        font-size: small;
+        padding: 10px;
+        padding-left:20px;
+      }
+      .foot2{
+        margin-top: 5px;
+        font-weight: 600;
+        word-spacing: -1px;
+      }
+      .subbox{
+        background-color: black;
+        color: white;
+        border-radius: 0px;
+        border-bottom-right-radius: 4px;
+        border-top-right-radius: 4px;
+        font-size: small;
+      }
+      .footerpart{
+        margin-top: 5px;
+      }
+      .foot6{
+        margin-top: 30px;
+        margin-left: 50px;
+        line-height: 50px;
+        color: gray;
+        font-weight: 600;
+        font-size: medium;
+      }
+      .foot4{
+        font-weight: 500;
+        color: rgb(57, 88, 57);
+      }
+      .foot5{
+        font-size: medium;
+        line-height: 30px;
+        margin-top: -50px;
+        margin-left: 50px;
+        color: rgb(57, 88, 57);
+      }
+      .foot7{
+        color: gray;
+        margin-top: 25px;
+        margin-left: 49px;
+        font-weight: 600;
+        font-size: medium;
+      }
+      .footicons{
+        width: 150px;
+        margin-left: 43px;
+        display: flex;
+        justify-content: space-between;
+        filter: brightness(3) invert(1);
+      }
+      .footset{
+        margin-left: 520px;
+        margin-top: -280px;
+      }
+      .footset1{
+        margin-top: 20px;
+      }
+      .footset2{
+        margin-left: 830px;
+        margin-top: -285px;
+      }
+      .footpay{
+        margin-left: 1100px;
+        margin-top: -285px;
+      }
+      .footpay img{
+        margin-top: 20px;
+      }
+      .footimg{
+        margin-top: 50px;
+        margin-left: 50px;
+      }
+      .copyright{
+        margin-top:210px;
+        margin-left: 50px;
+      }
+    
+      #design{
+        margin-left: 790px;
+      }

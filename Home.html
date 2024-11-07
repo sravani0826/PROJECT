@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PROJECT</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="./Home.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<!-- headers -->
+<body class="abc">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="../img/logo.png" height="90px" width="190px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="tags collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link  p-3" href="./Home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  p-3" href="./code/Shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  p-3" href="./code/My Account.html">My Account</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  p-3" href="./code/compare.html">Compare</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-3" href="./code/Login.html">Login</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="search for items..." aria-label="Search">
+          <img class="seabtn" src="../img/search.png" height="20px" width="20px">
+          
+        </form>
+        <button type="button" class="btn position-relative">
+          <img class="likeimg" src="../img/icon-heart.svg" height="20px" width="20px">
+          <span class="likebtn position-absolute top-0 start-100 translate-middle badge rounded-pill">
+            3
+            <span class="visually-hidden">Wishlist</span>
+          </span>
+          <button type="button" class="btn position-relative">
+            <img class="cartbtn" src="../img/icon-cart.svg" height="20px" width="20px">
+            <span class="likebtn position-absolute top-0 start-100 translate-middle badge rounded-pill">
+              3
+              <span class="visually-hidden">Wishlist</span>
+            </span>
+          </button>
+      </div>
+    </div>
+  </nav>
+  <!-- Hero section -->
+  <section>
+    <img class="homeimg" src="../img/home-img.png" height="350px" width="550px">
+    <h5 class="head1">Hot Promotions</h5>
+    <h3 class="trend">Fashion Trending <span class="grt" style="color: teal">Greate Collection</span></h3>
+    <p style="color: rgb(57, 88, 57);">Save more with coupons & up to 20% off</p>
+    <button type="button" class="shop btn">Shop Now</button>
+  </section>
+  <!-- Popular Categories -->
+  <section>
+    <h5 class="pop"><span style="color: teal;">Popular</span> Categories</h5>
+    <div class="oneset">
+      <figure>
+        <img class="imgs" src="../img/product-1-1.jpg" height="180px" width="180px">
+        <figcaption>T-Shirt</figcaption>
+      </figure>
+      <figure>
+        <img class="imgs" src="../img/product-13-2.jpg" height="180px" width="180px">
+        <figcaption>Bags</figcaption>
+      </figure>
+      <figure>
+        <img class="imgs" src="../img/product-10-2.jpg" height="180px" width="180px">
+        <figcaption>Sandal</figcaption>
+      </figure>
+      <figure>
+        <img class="imgs" src="../img/showcase-img-4.jpg" height="180px" width="180px">
+        <figcaption>Scarf Cap</figcaption>
+      </figure>
+      <figure>
+        <img class="imgs" src="../img/showcase-img-7.jpg" height="180px" width="180px">
+        <figcaption>Shoes</figcaption>
+      </figure>
+      <figure>
+        <img class="imgs" src="../img/showcase-img-2.jpg" height="180px" width="180px">
+         <figcaption>Pillowcase</figcaption>
+      </figure>
+    </div>
+  </section>
+  <section class="feature">
+    <button style="color: teal; background-color: #fbe6c0;" type="button" class="btn2">Featured</button>
+    <button type="button" class="btn2">Popular</button>
+    <button type="button" class="btn2">New Added</button>
+  </section>
+
+  <!-- Cards -->
+  <section class="pro">
+    <div class="card">
+      <div class="image-container">
+        <img src="../img/product-1-1.jpg" id="img1">
+        <div class="back">
+          <img src="../img/product-1-2.jpg" id="img2" >
+          <div class="back-icons">
+            <div class="tt">
+              <span class="tt-icon"><i class="bi bi-eye"></i></span>
+              <span class="tt-text" data-tt="Quick View" ></span>
+            </div>
+            <div class="tt">
+              <span class="tt-icon"><i class="bi bi-heart"></i></span>
+              <span class="tt-text" data-tt="Add to Whislist" ></span>
+            </div>
+            <div class="tt">
+              <span class="tt-icon"><i class="bi bi-shuffle"></i></span>
+              <span class="tt-text" data-tt="Compare" ></span>
+            </div>
+          </div>
+      </div>
+      </div>
+      <div>
+        <button class="hot-button">Hot</button>
+      </div>
+      <div class="card-details">
+        <p class="procap8">Clothing</p>
+        <h5 class="procap82">Coloful Pattern Shirts</h5>
+        <p style="color: gold; font-size: 20px; font-weight: bold;">✩✩✩✩✩</p>
+        <p class="price">$238.85<span class="offprz"> $245.8</span></p>
+        <div>
+          <span class="card-cart"><img src="../img/icon-cart.svg" height="35px" width="15px"></span>
+          </div>
+      </div>
+      </div>
+      <div class="card">
+        <div class="image-container">
+          <img src="../img/product-2-1.jpg" id="img1">
+          <div class="back">
+            <img src="../img/product-2-2.jpg" id="img2" >
+            <div class="back-icons">
+              <div class="tt">
+                <span class="tt-icon"><i class="bi bi-eye"></i></span>
+                <span class="tt-text" data-tt="Quick View" ></span>
+              </div>
+              <div class="tt">
+                <span class="tt-icon"><i class="bi bi-heart"></i></span>
+                <span class="tt-text" data-tt="Add to Whislist" ></span>
+              </div>
+              <div class="tt">
+                <span class="tt-icon"><i class="bi bi-shuffle"></i></span>
+                <span class="tt-text" data-tt="Compare" ></span>
+              </div>
+            </div>
+        </div>
+        </div>
+        <div>
+          <button style="background-color: rgb(137, 194, 174);" class="hot-button">Hot</button>
+        </div>
+        <div class="card-details">
+          <p class="procap8">Clothing</p>
+          <h5 class="procap82">Coloful Pattern Shirts</h5>
+          <p style="color: gold; font-size: 20px; font-weight: bold;">✩✩✩✩✩</p>
+          <p class="price">$238.85<span class="offprz"> $245.8</span></p>
+          <div>
+            <span class="card-cart"><img src="../img/icon-cart.svg" height="35px" width="15px"></span>
+            </div>
+        </div>
+        </div>
+        <div class="card">
+          <div class="image-container">
+            <img src="../img/product-3-1.jpg" id="img1">
+            <div class="back">
+              <img src="../img/product-3-2.jpg" id="img2" >
+              <div class="back-icons">
+                <div class="tt">
+                  <span class="tt-icon"><i class="bi bi-eye"></i></span>
+                  <span class="tt-text" data-tt="Quick View" ></span>
+                </div>
+                <div class="tt">
+                  <span class="tt-icon"><i class="bi bi-heart"></i></span>
+                  <span class="tt-text" data-tt="Add to Whislist" ></span>
+                </div>
+                <div class="tt">
+                  <span class="tt-icon"><i class="bi bi-shuffle"></i></span>
+                  <span class="tt-text" data-tt="Compare" ></span>
+                </div>
+              </div>
+          </div>
+          </div>
+          <div>
+            <button style="background-color: rgb(243, 181, 65);" class="hot-button">Hot</button>
+          </div>
+          <div class="card-details">
+            <p class="procap8">Clothing</p>
+            <h5 class="procap82">Coloful Pattern Shirts</h5>
+            <p style="color: gold; font-size: 20px; font-weight: bold;">✩✩✩✩✩</p>
+            <p class="price">$238.85<span class="offprz"> $245.8</span></p>
+            <div>
+              <span class="card-cart"><img src="../img/icon-cart.svg" height="35px" width="15px"></span>
+              </div>
+          </div>
+          </div>
+          <div class="card">
+            <div class="image-container">
+              <img src="../img/product-4-1.jpg" id="img1">
+              <div class="back">
+                <img src="../img/product-4-2.jpg" id="img2" >
+                <div class="back-icons">
+                  <div class="tt">
+                    <span class="tt-icon"><i class="bi bi-eye"></i></span>
+                    <span class="tt-text" data-tt="Quick View" ></span>
+                  </div>
+                  <div class="tt">
+                    <span class="tt-icon"><i class="bi bi-heart"></i></span>
+                    <span class="tt-text" data-tt="Add to Whislist" ></span>
+                  </div>
+                  <div class="tt">
+                    <span class="tt-icon"><i class="bi bi-shuffle"></i></span>
+                    <span class="tt-text" data-tt="Compare" ></span>
+                  </div>
+                </div>
+            </div>
+            </div>
+            <div>
+              <button style="background-color: rgb(167, 194, 229);" class="hot-button">Hot</button>
+            </div>
+            <div class="card-details">
+              <p class="procap8">Clothing</p>
+              <h5 class="procap82">Coloful Pattern Shirts</h5>
+              <p style="color: gold; font-size: 20px; font-weight: bold;">✩✩✩✩✩</p>
+              <p class="price">$238.85<span class="offprz"> $245.8</span></p>
+              <div>
+                <span class="card-cart"><img src="../img/icon-cart.svg" height="35px" width="15px"></span>
+                </div>
+            </div>
+            </div> 
+            <div class="card">
+              <div class="image-container">
+                <img src="../img/product-5-1.jpg" id="img1">
+                <div class="back">
+                  <img src="../img/product-5-2.jpg" id="img2" >
+                  <div class="back-icons">
+                    <div class="tt">
+                      <span class="tt-icon"><i class="bi bi-eye"></i></span>
+                      <span class="tt-text" data-tt="Quick View" ></span>
+                    </div>
+                    <div class="tt">
+                      <span class="tt-icon"><i class="bi bi-heart"></i></span>
+                      <span class="tt-text" data-tt="Add to Whislist" ></span>
+                    </div>
+                    <div class="tt">
+                      <span class="tt-icon"><i class="bi bi-shuffle"></i></span>
+                      <span class="tt-text" data-tt="Compare" ></span>
+                    </div>
+                  </div>
+              </div>
+              </div>
+              <div>
+                <button style="background-color: rgb(167, 194, 229);" class="hot-button">-30%</button>
+              </div>
+              <div class="card-details">
+                <p class="procap8">Clothing</p>
+                <h5 class="procap82">Coloful Pattern Shirts</h5>
+                <p style="color: gold; font-size: 20px; font-weight: bold;">✩✩✩✩✩</p>
+                <p class="price">$238.85<span class="offprz"> $245.8</span></p>
+                <div>
+                  <span class="card-cart"><img src="../img/icon-cart.svg" height="35px" width="15px"></span>
+                  </div>
+              </div>
+              </div>  
+              <div class="card">
+                <div class="image-container">
+                  <img src="../img/product-6-1.jpg" id="img1">
+                  <div class="back">
+                    <img src="../img/product-6-2.jpg" id="img2" >
+                    <div class="back-icons">
+                      <div class="tt">
+                        <span class="tt-icon"><i class="bi bi-eye"></i></span>
+                        <span class="tt-text" data-tt="Quick View" ></span>
+                      </div>
+                      <div class="tt">
+                        <span class="tt-icon"><i class="bi bi-heart"></i></span>
+                        <span class="tt-text" data-tt="Add to Whislist" ></span>
+                      </div>
+                      <div class="tt">
+                        <span class="tt-icon"><i class="bi bi-shuffle"></i></span>
+                        <span class="tt-text" data-tt="Compare" ></span>
+                      </div>
+                    </div>
+                </div>
+                </div>
+                <div>
+                  <button style="background-color: rgb(167, 194, 229);" class="hot-button">-22%</button>
+                </div>
+                <div class="card-details">
+                  <p class="procap8">Clothing</p>
+                  <h5 class="procap82">Coloful Pattern Shirts</h5>
+                  <p style="color: gold; font-size: 20px; font-weight: bold;">✩✩✩✩✩</p>
+                  <p class="price">$238.85<span class="offprz"> $245.8</span></p>
+                  <div>
+                    <span class="card-cart"><img src="../img/icon-cart.svg" height="35px" width="15px"></span>
+                    </div>
+                </div>
+                </div> 
+                <div class="card">
+                  <div class="image-container">
+                    <img src="../img/product-7-1.jpg" id="img1">
+                    <div class="back">
+                      <img src="../img/product-7-2.jpg" id="img2" >
+                      <div class="back-icons">
+                        <div class="tt">
+                          <span class="tt-icon"><i class="bi bi-eye"></i></span>
+                          <span class="tt-text" data-tt="Quick View" ></span>
+                        </div>
+                        <div class="tt">
+                          <span class="tt-icon"><i class="bi bi-heart"></i></span>
+                          <span class="tt-text" data-tt="Add to Whislist" ></span>
+                        </div>
+                        <div class="tt">
+                          <span class="tt-icon"><i class="bi bi-shuffle"></i></span>
+                          <span class="tt-text" data-tt="Compare" ></span>
+                        </div>
+                      </div>
+                  </div>
+                  </div>
+                  <div>
+                    <button style="background-color: rgb(137, 194, 174);" class="hot-button">-22%</button>
+                  </div>
+                  <div class="card-details">
+                    <p class="procap8">Clothing</p>
+                    <h5 class="procap82">Coloful Pattern Shirts</h5>
+                    <p style="color: gold; font-size: 20px; font-weight: bold;">✩✩✩✩✩</p>
+                    <p class="price">$238.85<span class="offprz"> $245.8</span></p>
+                    <div>
+                      <span class="card-cart"><img src="../img/icon-cart.svg" height="35px" width="15px"></span>
+                      </div>
+                  </div>
+                  </div> 
+                  <div class="card">
+                    <div class="image-container">
+                      <img src="../img/product-8-1.jpg" id="img1">
+                      <div class="back">
+                        <img src="../img/product-8-2.jpg" id="img2" >
+                        <div class="back-icons">
+                          <div class="tt">
+                            <span class="tt-icon"><i class="bi bi-eye"></i></span>
+                            <span class="tt-text" data-tt="Quick View" ></span>
+                          </div>
+                          <div class="tt">
+                            <span class="tt-icon"><i class="bi bi-heart"></i></span>
+                            <span class="tt-text" data-tt="Add to Whislist" ></span>
+                          </div>
+                          <div class="tt">
+                            <span class="tt-icon"><i class="bi bi-shuffle"></i></span>
+                            <span class="tt-text" data-tt="Compare" ></span>
+                          </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div>
+                      <!-- <button class="hot-button">Hot</button> -->
+                    </div>
+                    <div class="card-details">
+                      <p class="procap8">Clothing</p>
+                      <h5 class="procap82">Coloful Pattern Shirts</h5>
+                      <p style="color: gold; font-size: 20px; font-weight: bold;">✩✩✩✩✩</p>
+                      <p class="price">$238.85<span class="offprz"> $245.8</span></p>
+                      <div>
+                        <span class="card-cart"><img src="../img/icon-cart.svg" height="35px" width="15px"></span>
+                        </div>
+                    </div>
+                    </div>         
+     </section>
+  <!-- Banner Section-->
+<section class="banners">
+  <div class="banner">
+    <h3 style="color: teal;">Deals of the Day</h3>
+    <p style="color: gray;">Limited quantities</p>
+    <p style="font-size: 20px;">Summer Collection New<br>Modern Design</p>
+    <p style="color: red; font-weight: 500;">$139.00<span style="color: gray; text-decoration: line-through;"> $160.99</span></p>
+    <div>
+      <p style="color: rgb(15, 74, 74);">Hurry Up! Offer Ends In:</p>
+      <div class="timer">
+        <div>
+      <button class="btn3">02</button><span style="font-weight: bold;">:</span>
+      <div class="timers1" >Days</div>
+      </div>
+      <div>
+      <button class="btn3">22</button><span style="font-weight: bold;">:</span>
+      <div class="timers2">Hours</div>
+      </div>
+      <div>
+      <button class="btn3">57</button><span style="font-weight: bold;">:</span>
+      <div class="timers3">Mins</div>
+      </div>
+      <div>
+      <button class="btn3">28</button>
+      <div class="timers4">Sec</div>
+      </div>
+    </div> 
+    </div>
+    <button class="btn1">Shop Now</button>
+  </div>
+  <div class="banner2">
+    <h3 style="color: teal;">Deals of the Day</h3>
+    <p style="color: gray;">Limited quantities</p>
+    <p style="font-size: 20px;">Summer Collection New<br>Modern Design</p>
+    <p style="color: red; font-weight: 500;">$139.00<span style="color: gray; text-decoration: line-through;"> $160.99</span></p>
+    <div>
+      <p style="color: rgb(15, 74, 74);">Hurry Up! Offer Ends In:</p>
+      <div class="timer">
+        <div>
+      <button class="btn3">02</button><span style="font-weight: bold;">:</span>
+      <div class="timers1" >Days</div>
+      </div>
+      <div>
+      <button class="btn3">22</button><span style="font-weight: bold;">:</span>
+      <div class="timers2">Hours</div>
+      </div>
+      <div>
+      <button class="btn3">57</button><span style="font-weight: bold;">:</span>
+      <div class="timers3">Mins</div>
+      </div>
+      <div>
+      <button class="btn3">28</button>
+      <div class="timers4">Sec</div>
+      </div>
+    </div> 
+    </div>
+    <button class="btn1">Shop Now</button>
+  </div>
+</section>
+
+  <!-- New arrivals -->
+
+  <section class="pro">
+    <div class="card">
+      <div class="image-container">
+        <img src="../img/product-1-1.jpg" id="img1">
+        <div class="back">
+          <img src="../img/product-1-2.jpg" id="img2" >
+          <div class="back-icons">
+            <div class="tt">
+              <span class="tt-icon"><i class="bi bi-eye"></i></span>
+              <span class="tt-text" data-tt="Quick View" ></span>
+            </div>
+            <div class="tt">
+              <span class="tt-icon"><i class="bi bi-heart"></i></span>
+              <span class="tt-text" data-tt="Add to Whislist" ></span>
+            </div>
+            <div class="tt">
+              <span class="tt-icon"><i class="bi bi-shuffle"></i></span>
+              <span class="tt-text" data-tt="Compare" ></span>
+            </div>
+          </div>
+      </div>
+      </div>
+      <div>
+        <button class="hot-button">Hot</button>
+      </div>
+      <div class="card-details">
+        <p class="procap8">Clothing</p>
+        <h5 class="procap82">Coloful Pattern Shirts</h5>
+        <p style="color: gold; font-size: 20px; font-weight: bold;">✩✩✩✩✩</p>
+        <p class="price">$238.85<span class="offprz"> $245.8</span></p>
+        <div>
+          <span class="card-cart"><img src="../img/icon-cart.svg" height="35px" width="15px"></span>
+          </div>
+      </div>
+      </div>
+      <div class="card">
+        <div class="image-container">
+          <img src="../img/product-2-1.jpg" id="img1">
+          <div class="back">
+            <img src="../img/product-2-2.jpg" id="img2" >
+            <div class="back-icons">
+              <div class="tt">
+                <span class="tt-icon"><i class="bi bi-eye"></i></span>
+                <span class="tt-text" data-tt="Quick View" ></span>
+              </div>
+              <div class="tt">
+                <span class="tt-icon"><i class="bi bi-heart"></i></span>
+                <span class="tt-text" data-tt="Add to Whislist" ></span>
+              </div>
+              <div class="tt">
+                <span class="tt-icon"><i class="bi bi-shuffle"></i></span>
+                <span class="tt-text" data-tt="Compare" ></span>
+              </div>
+            </div>
+        </div>
+        </div>
+        <div>
+          <button style="background-color: rgb(137, 194, 174);" class="hot-button">Hot</button>
+        </div>
+        <div class="card-details">
+          <p class="procap8">Clothing</p>
+          <h5 class="procap82">Coloful Pattern Shirts</h5>
+          <p style="color: gold; font-size: 20px; font-weight: bold;">✩✩✩✩✩</p>
+          <p class="price">$238.85<span class="offprz"> $245.8</span></p>
+          <div>
+            <span class="card-cart"><img src="../img/icon-cart.svg" height="35px" width="15px"></span>
+            </div>
+        </div>
+        </div>
+        <div class="card">
+          <div class="image-container">
+            <img src="../img/product-3-1.jpg" id="img1">
+            <div class="back">
+              <img src="../img/product-3-2.jpg" id="img2" >
+              <div class="back-icons">
+                <div class="tt">
+                  <span class="tt-icon"><i class="bi bi-eye"></i></span>
+                  <span class="tt-text" data-tt="Quick View" ></span>
+                </div>
+                <div class="tt">
+                  <span class="tt-icon"><i class="bi bi-heart"></i></span>
+                  <span class="tt-text" data-tt="Add to Whislist" ></span>
+                </div>
+                <div class="tt">
+                  <span class="tt-icon"><i class="bi bi-shuffle"></i></span>
+                  <span class="tt-text" data-tt="Compare" ></span>
+                </div>
+              </div>
+          </div>
+          </div>
+          <div>
+            <button style="background-color: rgb(243, 181, 65);" class="hot-button">Hot</button>
+          </div>
+          <div class="card-details">
+            <p class="procap8">Clothing</p>
+            <h5 class="procap82">Coloful Pattern Shirts</h5>
+            <p style="color: gold; font-size: 20px; font-weight: bold;">✩✩✩✩✩</p>
+            <p class="price">$238.85<span class="offprz"> $245.8</span></p>
+            <div>
+              <span class="card-cart"><img src="../img/icon-cart.svg" height="35px" width="15px"></span>
+              </div>
+          </div>
+          </div>
+          <div class="card">
+            <div class="image-container">
+              <img src="../img/product-4-1.jpg" id="img1">
+              <div class="back">
+                <img src="../img/product-4-2.jpg" id="img2" >
+                <div class="back-icons">
+                  <div class="tt">
+                    <span class="tt-icon"><i class="bi bi-eye"></i></span>
+                    <span class="tt-text" data-tt="Quick View" ></span>
+                  </div>
+                  <div class="tt">
+                    <span class="tt-icon"><i class="bi bi-heart"></i></span>
+                    <span class="tt-text" data-tt="Add to Whislist" ></span>
+                  </div>
+                  <div class="tt">
+                    <span class="tt-icon"><i class="bi bi-shuffle"></i></span>
+                    <span class="tt-text" data-tt="Compare" ></span>
+                  </div>
+                </div>
+            </div>
+            <div>
+              <div>
+                <button style="background-color: rgb(167, 194, 229);" class="hot-button">Hot</button>
+              </div>
+              <div class="card-details">
+                <p class="procap8">Clothing</p>
+                <h5 class="procap82">Coloful Pattern Shirts</h5>
+                <p style="color: gold; font-size: 20px; font-weight: bold;">✩✩✩✩✩</p>
+                <p class="price">$238.85<span class="offprz"> $245.8</span></p>
+                <div>
+                  <span class="card-cart"><img src="../img/icon-cart.svg" height="35px" width="15px"></span>
+                  </div>
+              </div>
+              </div>
+            
+            </section>
+
+   <!-- 4 column design -->
+
+
+   
+ <section class="grid">
+    <h5 class="four-column">Hot Releases</h5>
+    <h5 class="four-column">Deals & Outlet</h5>
+    <h5 class="four-column">Top Selling</h5>
+    <h5 class="four-column">Trendy</h5>
+    <div class="line"></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+<div>
+  <div><img src="../img/showcase-img-1.jpg" alt="" height="100px" width="100px"></div>
+  <div> <p> Floral Print Casual Cotton Dre...</p>
+  <h6 style="color:teal">$238.85 <del style="color: rgb(131, 128, 128);">$245.0</del></h6></div>
+</div>
+<div>
+  <div><img src="../img/showcase-img-4.jpg" alt="" height="100px" width="100px"></div>
+  <div> <p>Fish Print Patched T-shirts</p>
+  <h6 style="color:teal">$238.85 <del style="color:rgb(131, 128, 128);">$245.0</del></h6></div>
+</div>
+<div>
+  <div><img src="../img/showcase-img-7.jpg" alt="" height="100px" width="100px"></div>
+  <div> <p>Geometric Printed Long Sleev...</p>
+  <h6 style="color:teal">$238.85 <del style="color:rgb(131, 128, 128);">$245.0</del></h6></div>
+</div>
+<div>
+  <div><img src="../img/showcase-img-7.jpg" alt="" height="100px" width="100px"></div>
+  <div> <p> Floral Pint Casual Cotton</p>
+  <h6 style="color:teal">$238.85 <del style="color:rgb(131, 128, 128);">$245.0</del></h6></div>
+</div>
+<div>
+  <div><img src="../img/showcase-img-2.jpg" alt="" height="100px" width="100px"></div>
+  <div> <p>Ruffled Solid Long Sleeve Blou...</p>
+  <h6 style="color:teal">$238.85 <del style="color:rgb(131, 128, 128);">$245.0</del></h6></div>
+</div>
+<div>
+  <div><img src="../img/showcase-img-5.jpg" alt="" height="100px" width="100px"></div>
+  <div> <p>Fintage Floral Print Dress</p>
+  <h6 style="color:teal">$238.85 <del style="color:rgb(131, 128, 128);">$245.0</del></h6></div>
+</div>
+<div>
+  <div><img src="../img/showcase-img-8.jpg" alt="" height="100px" width="100px"></div>
+  <div> <p>Print Patchwork Max Dress</p>
+  <h6 style="color: teal">$238.85 <del style="color:rgb(131, 128, 128);">$245.0</del></h6></div>
+</div>
+<div>
+  <div><img src="../img/showcase-img-8.jpg" alt="" height="100px" width="100px"></div>
+  <div> <p>>Ruffled Solid Long Sleeve</p>
+  <h6 style="color: teal">$238.85 <del style="color:rgb(131, 128, 128);">$245.0</del></h6></div>
+</div>
+<div>
+  <div><img src="../img/showcase-img-3.jpg" alt="" height="100px" width="100px"></div>
+  <div> <p>Multi-Color Print V-neck T-shirt</p>
+  <h6 style="color: teal">$238.85 <del style="color:rgb(131, 128, 128);">$245.0</del></h6></div>
+</div>
+<div>
+  <div><img src="../img/showcase-img-6.jpg" alt="" height="100px" width="100px"></div>
+  <div> <p> Multi-Color Stripe Circle T-shirt</p>
+  <h6 style="color: teal">$238.85 <del style="color:rgb(131, 128, 128);">$245.0</del></h6></div>
+</div>
+<div>
+  <div><img src="../img/showcase-img-9.jpg" alt="" height="100px" width="100px"></div>
+  <div> <p>daisy Floral Print straps  Jump...</p>
+  <h6 style="color: teal">$238.85 <del style="color:rgb(131, 128, 128);">$245.0</del></h6></div>
+</div>
+<div>
+  <div><img src="../img/showcase-img-9.jpg" alt="" height="100px" width="100px"></div>
+  <div> <p>Multi-Color Print V-neck</p>
+  <h6 style="color: teal">$238.85 <del style="color:rgb(131, 128, 128);">$245.0</del></h6></div>
+</div>
+  </section>
+  <div>
+  <div class="xyz small-line"></div>
+  <div class="uvw small-line"></div>
+ </div>
+ <div class="line1">
+    <div class="xyz small-line"></div>
+    <div class="uvw small-line"></div>
+   </div>
+   <div class="line2">
+    <div class="xyz small-line"></div>
+    <div class="uvw small-line"></div>
+   </div>
+   <div class="line3">
+    <div class="xyz small-line"></div>
+    <div class="uvw small-line"></div>
+   </div>
+   <!-- Footers -->
+   <section>
+    <nav class="footer navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand"><img class="emaimg" src="../img/icon-email.svg" height="33px" width="33px"></a>
+        <p class="foot1">Sign in to Newsletter</p>
+        <span class="foot2">...and receive $25 coupon for first shopping.</span>
+        <form class="d-flex" role="search">
+          <input class="emailbox form-control" type="search" placeholder="Enter Your Email" aria-label="Search">
+          <button class="subbox btn" type="submit">Subscribe</button>
+        </form>
+      </div>
+  </nav>
+</section>
+</section>
+   <!-- Footers -->
+<section class="footerpart">
+  <img class="footimg" src="../img/logo.png" height="60px" width="180px">
+  <p class="foot6">Contact</p><br>
+  <p class="foot5"><span class="foot4">Address: </span>13 Tlemcen Road, Street 32, Beb-Wahren<br>
+    <span class="foot4">Phone:</span> +012222 365/(+91)01 2345 6789<br>
+    <span class="foot4">Hours:</span> 10:00-18:00, Mon-Sat</p>
+    <p class="foot7">Follow Me</p>
+    <div class="footicons">
+      <img src="../img/icon-facebook.svg" height="20px" width="20px">
+      <img src="../img/icon-twitter.svg" height="20px" width="20px">
+      <img src="../img/icon-instagram.svg" height="20px" width="20px">
+      <img src="../img/icon-pinterest.svg" height="20px" width="20px">
+      <img src="../img/icon-youtube.svg" height="20px" width="20px">
+    </div>
+    <div class="footset">
+      <h5>Address</h5>
+      <p class="footset1">About Us</p>
+      <p>Delivery Information</p>
+      <p>Privacy Policy</p>
+      <p>Terms & Conditions</p>
+      <p>Contact Us</p>
+      <p>Support Centre</p>
+  </div>
+  <div class="footset2">
+    <h5>My Account</h5>
+    <p class="footset1">Sign in</p>
+    <p>View Cart</p>
+    <p>My Wishlist</p>
+    <p>Track My Order</p>
+    <p>Help</p>
+    <p>Order</p>
+  </div>
+  <div class="footpay">
+    <h5>Secured Payed Gateways</h5>
+    <img src="../img/payment-method.png">
+  </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <div class="copyright">
+    <div class="logo" >
+      <hr style="width:1250px;">
+     <p>&copy; 2024 Sravani k ,All right reserved<span id="design">Designer by Sravani k</span> </p>
+     
+    </div>
+  </div>
+   </div>
+  </body>
+  </html>
+   
+  

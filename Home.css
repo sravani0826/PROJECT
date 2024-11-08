@@ -65,10 +65,43 @@
     border: 1px solid teal;
     color: teal;
   }
+  .chervon{
+    margin-right: 50px;
+    position: absolute;
+    top:580px;
+    left: 1230px;
+  }
+  .chervon1{
+   position: absolute;
+   left: 1230px;
+   top:700px;
+   
+ }
+  .arrow1{
+   background-color: #E9F6EB;
+   border: 1px solid;
+   color: green;
+   padding: 10px;
+   border-radius: 50%;
+ 
+  }
+  .arrow2{
+   background-color: #E9F6EB;
+   border: 1px solid;
+   color: green;
+   padding: 10px;
+   border-radius:50%;
+  }
+  
   /* popular categories */
   .pop{
       margin-top: 100px;
       line-height: 60px;
+  }
+  .arrow{
+    background-color: aqua;
+    margin-top: 100px;
+    border-color: black;
   }
   .oneset{
     width: 97%;
@@ -352,12 +385,9 @@
    .banners{
     display: flex;
    }
-   /* 4 column design */
-  
    .four-column{
     margin-left: -5px;
     padding-top: 50px;
-    /* padding-bottom: 30px; */
    }
    .grid{
     width: 95vw;
@@ -478,18 +508,18 @@
     filter: brightness(3) invert(1);
   }
   .footset{
-    margin-left: 520px;
+    margin-left: 500px;
     margin-top: -280px;
   }
   .footset1{
     margin-top: 20px;
   }
   .footset2{
-    margin-left: 830px;
+    margin-left: 700px;
     margin-top: -285px;
   }
   .footpay{
-    margin-left: 1100px;
+    margin-left: 950px;
     margin-top: -285px;
   }
   .footpay img{
@@ -500,7 +530,7 @@
   }    
 
   .copyright{
-    margin-top:160px;
+    margin-top:130px;
   }
 
   #design{

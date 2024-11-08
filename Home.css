@@ -65,33 +65,6 @@
     border: 1px solid teal;
     color: teal;
   }
-  .chervon{
-    margin-right: 50px;
-    position: absolute;
-    top:580px;
-    left: 1230px;
-  }
-  .chervon1{
-   position: absolute;
-   left: 1230px;
-   top:700px;
-   
- }
-  .arrow1{
-   background-color: #E9F6EB;
-   border: 1px solid;
-   color: green;
-   padding: 10px;
-   border-radius: 50%;
- 
-  }
-  .arrow2{
-   background-color: #E9F6EB;
-   border: 1px solid;
-   color: green;
-   padding: 10px;
-   border-radius:50%;
-  }
   
   /* popular categories */
   .pop{
@@ -141,6 +114,35 @@
       justify-content: space-between;
   }
   /* cards */
+
+  .chervon{
+    margin-right: 50px;
+    position: absolute;
+    top:580px;
+    left: 1030px;
+  }
+  .chervon1{
+  margin-top: 1710px;
+  margin-left: -60px;
+   
+ }
+  .arrow1{
+   background-color: #E9F6EB;
+   border: 1px solid;
+   color: green;
+   padding: 10px;
+   border-radius: 50%;
+ 
+  }
+  .arrow2{
+   background-color: #E9F6EB;
+   border: 1px solid;
+   color: green;
+   padding: 10px;
+   border-radius:50%;
+  }
+  
+
   .pro{
       width: 95vw;
       margin: auto;
@@ -317,6 +319,35 @@
       padding-right: 11px;
       border-radius: 50px;
     }
+
+    .chervon{
+      margin-right: 50px;
+      position: absolute;
+      top:580px;
+      left: 1230px;
+    }
+    .chervon1{
+     position: absolute;
+     left: 1230px;
+     top:700px;
+     
+   }
+    .arrow1{
+     background-color: #E9F6EB;
+     border: 1px solid;
+     color: green;
+     padding: 10px;
+     border-radius: 50%;
+   
+    }
+    .arrow2{
+     background-color: #E9F6EB;
+     border: 1px solid;
+     color: green;
+     padding: 10px;
+     border-radius:50%;
+    }
+    
   
     /* Banner section */
    .btn3{
@@ -530,7 +561,7 @@
   }    
 
   .copyright{
-    margin-top:130px;
+    margin-top:200px;
   }
 
   #design{
